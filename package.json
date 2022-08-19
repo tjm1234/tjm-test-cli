@@ -1,17 +1,27 @@
 {
-    "name": "feathers-cli",
-    "version": "1.0.2",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "bin": {
-        "tjm": "./bin/index.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "comander": "^0.0.1-security"
-    }
+  "name": "feathers-cli",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tjm": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "consolidate": "^0.16.0",
+    "figlet": "^1.5.0",
+    "fs-extra": "^9.0.1",
+    "handlebars": "^4.7.6",
+    "metalsmith": "^2.3.0",
+    "minimatch": "^3.0.4",
+    "ora": "^5.1.0",
+    "prompts": "^2.4.0",
+    "trash": "^7.0.0"
+  }
 }
